@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Models & Data cache
+models/*.joblib
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Databases & Credentials
+*.db
+*.sqlite
+data/*.db
+data/users.json
+data/config.json
+.env
+
