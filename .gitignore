@@ -9,7 +9,7 @@ venv/
 ENV/
 
 # Models & Data cache
-models/*.joblib
+# models/*.joblib  <-- Removed so GitHub can host the model
 .streamlit/
 
 # Jupyter
